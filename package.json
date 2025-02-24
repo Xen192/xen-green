@@ -1,0 +1,26 @@
+{
+  "name": "xen-green",
+  "displayName": "Xen Green",
+  "description": "Core Green Theme for VS Code",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xen192/xen-green.git"
+  },
+  "icon": "icons/icon128.png",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Xen Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Xen Green-color-theme.json"
+      }
+    ]
+  }
+}
